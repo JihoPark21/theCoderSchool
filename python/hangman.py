@@ -41,7 +41,7 @@ while True:
    #Handling input and lives
    letterIsSeen = False
    userGuess = input("Guess a letter: ")
-   userGuess.lower()
+   userGuess = userGuess.lower()
 
    for i in range(len(word)):
       if word[i] == userGuess:
